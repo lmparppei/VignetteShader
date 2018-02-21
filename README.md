@@ -7,5 +7,6 @@ vignette.uniforms[ "resolution" ].value = new THREE.Vector2( window.innerWidth, 
 vignette.uniforms[ "horizontal" ].value = true; // default is false
 vignette.uniforms[ "radius" ].value = .8; // default is 0.75
 vignette.uniforms[ "softness" ].value = .3; // default is 0.3
+vignette.uniforms[ "gain" ].value = .3; // default is 0.9
 ```
 
